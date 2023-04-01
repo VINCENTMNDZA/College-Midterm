@@ -1,0 +1,558 @@
+html{ 
+  margin: 0;
+    padding: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+    /* body */
+}
+body{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Golos Text', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Varela Round', sans-serif;
+  
+    font-size: 18px;
+    background-color: #181717;
+    background-image: url(bgc.jpg);
+}
+
+/*container*/
+li {
+  list-style: none;}
+#container{
+  height:100vh;
+  background-color: #EFE7DA;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 6px;
+}
+/* hover of every navigations */
+a:hover {
+ color: rgb(4 226 240);
+}
+/*header*/
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+/*navigation bar*/
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 12 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/*logo*/
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/**/
+
+.navbar .links {
+  display:flex;
+  gap: 3rem;
+}
+/*still navigationr*/
+.navbar .toggle_btn {
+  color: wheat;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.navbar .toggle_btn {
+  color: wheat;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+/*button desings*/
+.action_btn {
+  float: right;
+  margin: 20px;
+  text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 1px;
+    font-size: 20px;
+ 
+    background-color: rgb(194, 193, 190);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  
+  cursor: pointer;
+  float: right;
+}
+/*hover button*/
+.action_btn:hover {
+  scale: 1.05;
+  color: rgb(0, 0, 0);
+}
+.action_btn:active {
+  scale:1.05;
+
+}
+/*body*/
+#wrapper{
+  width: 98%;
+    min-height: 600px;
+    padding:4px;
+    margin: 0 auto;
+}
+#wrapper{
+  width: 97%;
+    min-height: 800px;
+    padding:15px;
+    margin: 1 auto;
+    background-color: transparent;
+    text-align: center;
+}
+/*fonts of mostly consist of navs*/
+.container h2 {
+  font-size: 40px;
+}
+/*button to create to be added at the list*/
+.move-left{
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+/*logo*/
+img {
+  display:flex;
+  float: left;
+  border-radius: 50px;
+  margin: 0px;
+  
+
+}
+#header{
+    width: 98%;
+    height: 40px;
+    margin: 0 auto;
+}
+#menu{
+    height: 34px;
+    width: 98%;
+    padding: 0px;
+}
+/*submenu*/
+#second-submenu{
+    height: 24px;
+    width: 98%;
+}
+#third-submenu{
+   height: 24px;
+    width: 98%;
+    text-align: right;
+}
+a {
+  position: relative;
+}
+/*overall color*/
+#menu a, #second-submenu a, #third-submenu a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+/*overall color of hovers of menus */
+#menu a:hover, #second-submenu a:hover, #third-submenu a:hover{
+    text-decoration: none;
+   color: rgb(4 226 240);
+    font-weight: bold;
+}
+/*contents edits*/
+#content{
+    width: 96%;
+    padding: 8px;
+    min-height: 600px;
+    height:100vh;
+    margin: 4px auto;
+    background-color: transparent;
+}
+
+#subcontent{
+    width: 98%;
+    padding: 4px;
+    height:100vh;
+}
+.move-right{
+    float: right;
+}
+/* FORM */
+.input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*button*/
+button{
+    width: 20%;
+    background-color: rgb(4 226 240);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*submit at creating to be added at the list*/
+input[type=submit] {
+  width: 20%;
+  background-color: rgb(4 226 240);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #00fdd3;
+}
+textarea {
+  line-height: 1.5;
+  font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+}
+/*FORM*/
+#form-block-center {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+#form-block {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+#form-block #form-block-half{
+    width: 45%;
+    float: left;
+    padding: 20px;
+}
+#forms-block {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+#forms-block #form-block-rel{
+  width: 20%;
+  float: right;
+  padding: 10px;
+}
+#button-block{
+    width: 95%;
+    padding: 20px;
+    text-align: right;
+}
+/** end */
+/*DATA LISTS*/
+#data-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+/*DATALIST COLOR*/
+#data-list td, #data-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#data-list tr:nth-child(even){background-color: #f2f2f2;}
+
+#data-list tr:hover {background-color: #ddd;}
+
+#data-list th {
+  padding-top: 12px;
+  padding-bottom: 7px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+#login-block{
+  width: 30%;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#brand-block{
+  width: 40%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#error_notif {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  margin: 0 auto;
+  z-index: 999999999;
+}
+
+* {
+  box-sizing: border-box}
+
+/* Set a style for all buttons */
+
+
+
+button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .confirmbtn, .submitbtn  {
+  float: right;
+  width: 30%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+  border-radius: 50px;
+}
+
+/* Add a color to the delete button */
+.confirmbtn {
+  background-color:  rgb(207, 159, 54);
+  border-radius: 50px;
+
+}
+/*BTN AT SUBMENU IN CREATING A PRODUCT/SERVICE*/
+.btn-jsactive{
+  
+  float: right;
+  margin: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 1px;
+  font-size: 20px;
+  background-color: rgb(136 135 134);
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  float: right;
+}
+
+/* Add a color to the delete button */
+.submitbtn {
+  background-color: rgb(4 226 240);
+  border-radius: 50px;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 20px;
+  text-align: left;
+  border-radius: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(255,255,255,70%);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  border: 2px solid black;
+  border-radius: 5%;
+  box-sizing: border-box;
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .confirmbtn, .submitbtn {
+    width: 100%;
+  }
+}
+.btn-box{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+#receive-details table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.info-text{
+  font-weight: bold;
+}
+/*tr:nth-child(even){background-color: #f2f2f2}*/
+.tmbnail{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60px;
+}
+.tmbnail:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/*homepage animation*/
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #dad9df 0%,
+    #78757c 29%,
+    #0a090a 67%,
+    #d4c641 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/*dropdown hover*/
+  .menu-button {
+    background-color: rgb(165, 163, 159);
+    text-align: center;
+    padding: 14px 40px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Varela Round', sans-serif;
+    
+  }
+.right-menu{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  max-width: 250px;
+  z-index: 1;
+}
+.dropdown-menu a:hover{
+  background: #000;
+  color: #fff;
+}
+.right-menu:hover .dropdown-menu{
+  display:block;
+}
+
